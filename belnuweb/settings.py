@@ -107,6 +107,14 @@ DATABASES = {
         'PASSWORD': 'pablo1612',
         'HOST': 'localhost',
         'PORT': '5432',
+    },
+     'postgresql': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'BelnuWeb',
+        'USER': 'postgres',
+        'PASSWORD': 'pablo1612',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
